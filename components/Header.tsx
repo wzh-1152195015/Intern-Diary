@@ -28,6 +28,16 @@ function Logo() {
     );
 }
 
+function  github() {
+    return (
+        <link href="https://github.com/wzh-1152195015/Intern-Diary" className="inline-flex justify-left items-left">
+            <Icon/>
+      </span>
+            <span>Github</span>
+        </Link>        
+    );
+}
+
 export function Header() {
     return (
         <header className="p-8 flex justify-center">
